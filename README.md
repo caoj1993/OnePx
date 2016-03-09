@@ -5,7 +5,7 @@
 
 ## 团队成员
 
-- [sxgc](https://github.com/sxgc)
+- [sxgc](https://github.com/sxgc) 
 - [qdxt](https://github.com/qdxt)
 - [wt9213](https://github.com/wt9213)
 - [caoj1993](https://github.com/caoj1993)
@@ -38,6 +38,7 @@
 - 磨合团队熟悉度，了解彼此，清楚队员各自的技术能力
 - 熟悉各项工具的使用
 - 熟悉Git等版本工具的使用
+
 由于是热身任务，所以没有严格的要求，期望如下：
 
 - 每个队员都参与其中
