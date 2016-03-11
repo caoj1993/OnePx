@@ -1,15 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>OnePx</title>
-	<link rel="stylesheet" href="warm/css/reset.css">
-	<link rel="stylesheet" href="warm/css/public.css">
+<meta charset="UTF-8">
+<title>OnePx</title>
+<link rel="stylesheet" href="warm/css/reset.css">
+<link rel="stylesheet" href="warm/css/public.css">
+<link rel="stylesheet" href="warm/css/footer.css">
 </head>
 <body>
-	<div class="container">
-		<h1>测试内容</h1>
+<div class="container"> </div>
+<div id="footer">
+	<div class="ft-main">
+		<h2>联系我们</h2>
+		<p>我们的项目托管在 Github ，欢迎拍砖！</p>
+		<p>地址：<a target="_blank" href="https://github.com/IFE-OnePx/OnePx.git">github.com/IFE-OnePx/OnePx.git</a></p>
+		<div class="form-group">
+			<form id="form" action="" method="post">
+				<div class="form-block">
+					<div class="form-item">
+						<label>姓名</label>
+						<input type="text" placeholder="姓名" id="uer_name">
+					</div>
+					<div class="form-item">
+						<label>邮箱</label>
+						<input type="email" placeholder="邮箱" id="uer_email">
+					</div>
+					<div class="form-item">
+						<label>个人站点</label>
+						<input type="url" placeholder="个人站点" id="uer_site">
+					</div>
+				</div>
+				<div class="form-block">
+					<div class="form-item">
+						<label>相对我们说的话</label>
+						<div class="text">
+							<textarea placeholder="相对我们说的话"></textarea>
+						</div>
+					</div>
+				</div>
+				<input type="submit" value="提交">
+			</form>
+		</div>
+		<p class="copyright">&copy; 2016 By <a target="_blank" href="https://github.com/IFE-OnePx">IFE-OnePx</a></p>
 	</div>
-	<script src="warm/js/jquery.min.js"></script>
+</div>
+
+
+<script src="warm/js/jquery.min.js"></script>
+<script src="warm/js/jquery.placeholder.min.js"></script>
+<script>
+$(function(){
+	
+	$("input, textarea").placeholder({});
+	
+	$("#form").submit(function(){
+		alert("暂未实现");
+		return false;	
+	});
+});
+</script>
+
 </body>
 </html>
